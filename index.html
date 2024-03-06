@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Text To Speech in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  <div class="all">
+    <div class="tts">
+      <div class="wrapper">
+        <header>Text To Speech</header>
+        <form action="#">
+          <div class="row">
+            <label>Enter Text</label>
+            <textarea id="tts"></textarea>
+          </div>
+          <div class="row">
+            <label>Select Voice</label>
+            <div class="outer">
+              <select></select>
+            </div>
+          </div>
+          <button>Convert To Speech</button>
+        </form>
+      </div>
+    </div>
+
+    <button onclick="interchange()">change</button>
+
+    <form id="form">
+      <h1>Speech To Text App</h1>
+      <textarea id="stt"></textarea>
+      <button type="submit">Speak!</button>
+      <button type="button">Stop</button>
+    </form>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
